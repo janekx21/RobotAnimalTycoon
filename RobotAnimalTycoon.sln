@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RobotAnimalTycoon", "Assembly-CSharp.csproj", "{BAAFE1F5-C360-2551-6FC0-9382D1E85638}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RobotAnimalTycoon", "Assembly-CSharp-Editor.csproj", "{821F51EB-B41D-6136-B2C3-52868F0D6D97}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BAAFE1F5-C360-2551-6FC0-9382D1E85638}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAAFE1F5-C360-2551-6FC0-9382D1E85638}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAAFE1F5-C360-2551-6FC0-9382D1E85638}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAAFE1F5-C360-2551-6FC0-9382D1E85638}.Release|Any CPU.Build.0 = Release|Any CPU
+		{821F51EB-B41D-6136-B2C3-52868F0D6D97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{821F51EB-B41D-6136-B2C3-52868F0D6D97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{821F51EB-B41D-6136-B2C3-52868F0D6D97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{821F51EB-B41D-6136-B2C3-52868F0D6D97}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
