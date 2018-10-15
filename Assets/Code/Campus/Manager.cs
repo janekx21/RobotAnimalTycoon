@@ -8,6 +8,7 @@ public class Manager : MonoBehaviour {
     public Building[] allBuildings;
 
     Building currentOnMouse = null;
+	[System.NonSerialized]
     public List<Building> buildings;
 
     UIBuilding[] uis;
@@ -103,7 +104,6 @@ public class Manager : MonoBehaviour {
             y -= b.GetComponent<RectTransform>().sizeDelta.y;
             uis[i] = b;
             b.show = item;
-            
         }
     }
 
@@ -185,7 +185,9 @@ public class Manager : MonoBehaviour {
 
     void newBuildingOnMouse(Building building) {
         currentOnMouse = Instantiate<Building>(building, getOnGroundPosition(), Quaternion.identity);
-    }
+		currentOnMouse.placed = false;
+
+	}
 
     Vector3 lastPointer;
 

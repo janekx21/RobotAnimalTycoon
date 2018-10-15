@@ -8,15 +8,15 @@ Prefab:
     m_TransformParent: {fileID: 0}
     m_Modifications: []
     m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 0}
+  m_SourcePrefab: {fileID: 0}
   m_RootGameObject: {fileID: 1859358611586038}
-  m_IsPrefabParent: 1
+  m_IsPrefabAsset: 1
 --- !u!1 &1734232853585244
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 4285192683099114}
   - component: {fileID: 33813496938946228}
@@ -32,9 +32,9 @@ GameObject:
 --- !u!1 &1859358611586038
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 4231176022344238}
   - component: {fileID: 114609101856303950}
@@ -48,11 +48,11 @@ GameObject:
 --- !u!4 &4231176022344238
 Transform:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1859358611586038}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.98, y: 5.09, z: 0}
+  m_LocalPosition: {x: 5, y: 5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4285192683099114}
@@ -62,7 +62,7 @@ Transform:
 --- !u!4 &4285192683099114
 Transform:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1734232853585244}
   m_LocalRotation: {x: -0.5, y: -0.5, z: -0.5, w: 0.5}
@@ -75,7 +75,7 @@ Transform:
 --- !u!23 &23048499944256202
 MeshRenderer:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1734232853585244}
   m_Enabled: 1
@@ -87,7 +87,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: f28b0b7e0d59b994fbdaf5163eb1ec2e, type: 3}
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -110,15 +110,15 @@ MeshRenderer:
 --- !u!33 &33813496938946228
 MeshFilter:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1734232853585244}
-  m_Mesh: {fileID: 4300002, guid: f28b0b7e0d59b994fbdaf5163eb1ec2e, type: 3}
+  m_Mesh: {fileID: 4300000, guid: 420256ba4439eee4b93d3eb932ba15a3, type: 3}
 --- !u!95 &95686769755458724
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1734232853585244}
   m_Enabled: 1
@@ -135,33 +135,33 @@ Animator:
 --- !u!114 &114609101856303950
 MonoBehaviour:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1859358611586038}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 920efba1434ee3246bb6a0be6cfaa211, type: 3}
+  m_Script: {fileID: 11500000, guid: e74fac780842bda4b914272e60e7af4f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   connectionPoints:
-  - pos: {x: 1, y: 2}
-    state: 2
   - pos: {x: 0, y: 0}
-    state: 2
-  - pos: {x: 0, y: 2}
     state: 2
   - pos: {x: 0, y: 1}
     state: 3
-  position: {x: 2, y: 5}
+  - pos: {x: 0, y: 2}
+    state: 2
+  - pos: {x: 1, y: 2}
+    state: 2
+  position: {x: 5, y: 5}
   placed: 0
   ok: 0
   wrong: 0
   myShop: {fileID: 0}
   stat:
-    nameOfPart: noname_part
-    price: 2
+    nameOfPart: L Part
+    price: 0
     energyCost: 0
-    bulkynis: 1
+    bulkynis: 0
     sight: 0
     movement: 0
     intiligenz: 0

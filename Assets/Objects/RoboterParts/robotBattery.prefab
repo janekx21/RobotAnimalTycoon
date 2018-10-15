@@ -8,15 +8,15 @@ Prefab:
     m_TransformParent: {fileID: 0}
     m_Modifications: []
     m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 0}
+  m_SourcePrefab: {fileID: 0}
   m_RootGameObject: {fileID: 1166675565149392}
-  m_IsPrefabParent: 1
+  m_IsPrefabAsset: 1
 --- !u!1 &1096759934336786
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 4952430653927908}
   - component: {fileID: 33883708928565354}
@@ -32,9 +32,9 @@ GameObject:
 --- !u!1 &1166675565149392
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 4922406568350754}
   - component: {fileID: 114406116958762448}
@@ -48,11 +48,11 @@ GameObject:
 --- !u!4 &4922406568350754
 Transform:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1166675565149392}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.1, y: 4.02, z: 0}
+  m_LocalPosition: {x: -2.86, y: 5.1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4952430653927908}
@@ -62,7 +62,7 @@ Transform:
 --- !u!4 &4952430653927908
 Transform:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1096759934336786}
   m_LocalRotation: {x: -0.5, y: -0.5, z: -0.5, w: 0.5}
@@ -75,7 +75,7 @@ Transform:
 --- !u!23 &23399995701776480
 MeshRenderer:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1096759934336786}
   m_Enabled: 1
@@ -87,7 +87,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: fd944bd3caed17a41962a110a844cf8d, type: 3}
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -110,15 +110,15 @@ MeshRenderer:
 --- !u!33 &33883708928565354
 MeshFilter:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1096759934336786}
-  m_Mesh: {fileID: 4300002, guid: fd944bd3caed17a41962a110a844cf8d, type: 3}
+  m_Mesh: {fileID: 4300000, guid: 60cebd2d5d3bf584cb1628b28e4f4cb2, type: 3}
 --- !u!95 &95772903901916320
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1096759934336786}
   m_Enabled: 1
@@ -135,33 +135,33 @@ Animator:
 --- !u!114 &114406116958762448
 MonoBehaviour:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1166675565149392}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 920efba1434ee3246bb6a0be6cfaa211, type: 3}
+  m_Script: {fileID: 11500000, guid: e74fac780842bda4b914272e60e7af4f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   connectionPoints:
   - pos: {x: 0, y: 0}
     state: 1
-  - pos: {x: 0, y: 1}
-    state: 4
   - pos: {x: 1, y: 1}
+    state: 4
+  - pos: {x: 0, y: 1}
     state: 4
   - pos: {x: -1, y: 1}
     state: 4
-  position: {x: 8, y: 4}
+  position: {x: -3, y: 5}
   placed: 0
   ok: 0
   wrong: 0
   myShop: {fileID: 0}
   stat:
-    nameOfPart: noname_part
-    price: 12
-    energyCost: -2
-    bulkynis: 5
-    sight: 0
-    movement: 0
-    intiligenz: 0
+    nameOfPart: Batterie
+    price: 10
+    energyCost: 10
+    bulkynis: 10
+    sight: 10
+    movement: 10
+    intiligenz: 10

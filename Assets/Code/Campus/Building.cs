@@ -10,7 +10,7 @@ public class Building : MonoBehaviour {
     public float reputationInc = 0;
 
     public BuildingCollider[] colliders;
-    public bool placed;
+    public bool placed = true;
 
     public bool canPlace = false;
 
@@ -24,10 +24,14 @@ public class Building : MonoBehaviour {
         foreach (var item in colliders) {
             item.origen = this;
         }
-        repr.layer = LayerMask.NameToLayer("BuildingFront");
-    }
+		if (!placed)
+			repr.layer = LayerMask.NameToLayer("BuildingFront");
+		else
+			OnPlace();
 
-    public void OnPlace() {
+	}
+
+    public virtual void OnPlace() {
         repr.layer = LayerMask.NameToLayer("Buildings");
         repr.GetComponent<Renderer>().material.color = Color.white;
     }
@@ -77,12 +81,17 @@ public class Building : MonoBehaviour {
                     }
                     movingWithMouse = false;
                     repr.layer = LayerMask.NameToLayer("Buildings");
-                }
+					OnMoveEnd();
+
+				}
                 repr.GetComponent<Renderer>().material.color = can ? Color.cyan : Color.red;
             }
         }
         
     }
+
+	public virtual void OnMoveBegin() { }
+	public virtual void OnMoveEnd() { }
 
     public virtual void Tick() { }
 
@@ -95,7 +104,8 @@ public class Building : MonoBehaviour {
             movingWithMouse = true;
             moveOffset = Manager.instance.lastMousePos - transform.position;
             repr.layer = LayerMask.NameToLayer("BuildingFront");
-        }
+			OnMoveBegin();
+		}
         Manager.instance.selected = this;
     }
 

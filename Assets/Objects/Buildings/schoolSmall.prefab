@@ -157,7 +157,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1698617062371968}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 17.796875, y: 3.6859493, z: -1.7006166}
+  m_LocalPosition: {x: -18.306976, y: 2.1326676e-16, z: -9.60468}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4730836510497878}
@@ -180,7 +180,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: 468af1074d83e044087118b014536e8f, type: 3}
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -206,7 +206,7 @@ MeshFilter:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1256463171952580}
-  m_Mesh: {fileID: 4300000, guid: 468af1074d83e044087118b014536e8f, type: 3}
+  m_Mesh: {fileID: 4300000, guid: 72a449bcac1f2a74c9aba2811e9de9ee, type: 3}
 --- !u!54 &54306280017940754
 Rigidbody:
   m_ObjectHideFlags: 1
@@ -287,7 +287,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1432340644663156}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cb2745fe025371b42bc924cd54c5d2d5, type: 3}
+  m_Script: {fileID: 11500000, guid: b4aea54e5e574f14185215be19b5553f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   overlaping: []
@@ -300,22 +300,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 1698617062371968}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 76ee5b6244afbc14dabdd2fefe148afe, type: 3}
+  m_Script: {fileID: 11500000, guid: c771805bc9616d94597b2ab448525cfc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  buildingName: "kleiner H\xF6rsaal"
-  price: 45
-  reputationInc: 0.04
+  buildingName: "Kleiner H\xF6rsahl"
+  price: 5
+  reputationInc: 0
   colliders:
-  - {fileID: 114159752275882940}
   - {fileID: 114745976738243234}
-  placed: 0
+  - {fileID: 114159752275882940}
+  placed: 1
   canPlace: 0
   repr: {fileID: 1256463171952580}
-  settingsPrefab: {fileID: 114237554414988194, guid: 991b9f9b78d6c95459fd97e1b0a9932f,
+  settingsPrefab: {fileID: 114237554414988194, guid: 91c9b0e20983e454889181406a2170c5,
     type: 2}
+  bonus: 0
   selected: 0
-  timeForNew: 55
+  timeForNew: 60
 --- !u!114 &114745976738243234
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -324,7 +325,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1460043344424032}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cb2745fe025371b42bc924cd54c5d2d5, type: 3}
+  m_Script: {fileID: 11500000, guid: b4aea54e5e574f14185215be19b5553f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   overlaping: []

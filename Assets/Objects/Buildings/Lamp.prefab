@@ -8,15 +8,15 @@ Prefab:
     m_TransformParent: {fileID: 0}
     m_Modifications: []
     m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 0}
+  m_SourcePrefab: {fileID: 0}
   m_RootGameObject: {fileID: 1035928919909046}
-  m_IsPrefabParent: 1
+  m_IsPrefabAsset: 1
 --- !u!1 &1035928919909046
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 4731284064014670}
   - component: {fileID: 114874725726212172}
@@ -30,9 +30,9 @@ GameObject:
 --- !u!1 &1036903794752054
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 4520587742183602}
   - component: {fileID: 33855152884670220}
@@ -48,9 +48,9 @@ GameObject:
 --- !u!1 &1722077432182198
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 4087675357147328}
   - component: {fileID: 108742403915079888}
@@ -64,11 +64,11 @@ GameObject:
 --- !u!4 &4087675357147328
 Transform:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1722077432182198}
   m_LocalRotation: {x: 0.70710677, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 1.65, z: 0.43}
+  m_LocalPosition: {x: 0, y: 1.77, z: 0.01}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4731284064014670}
@@ -77,7 +77,7 @@ Transform:
 --- !u!4 &4520587742183602
 Transform:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1036903794752054}
   m_LocalRotation: {x: 0.00000001869324, y: -0.7071069, z: -0.7071067, w: 0}
@@ -90,11 +90,11 @@ Transform:
 --- !u!4 &4731284064014670
 Transform:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1035928919909046}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.1702995, y: -2.5314738e-17, z: 1.1400744}
+  m_LocalPosition: {x: 30.77, y: 2.2037092e-16, z: -24.43}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4520587742183602}
@@ -105,7 +105,7 @@ Transform:
 --- !u!23 &23834309994991960
 MeshRenderer:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1036903794752054}
   m_Enabled: 1
@@ -117,7 +117,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: 88930d8894df9cc46be3bf6c3a36f215, type: 3}
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -140,15 +140,15 @@ MeshRenderer:
 --- !u!33 &33855152884670220
 MeshFilter:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1036903794752054}
-  m_Mesh: {fileID: 4300000, guid: 88930d8894df9cc46be3bf6c3a36f215, type: 3}
+  m_Mesh: {fileID: 4300000, guid: 902801bb8dc87424ca283fe8e8a9e81a, type: 3}
 --- !u!95 &95029596736778066
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1036903794752054}
   m_Enabled: 1
@@ -165,7 +165,7 @@ Animator:
 --- !u!108 &108742403915079888
 Light:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1722077432182198}
   m_Enabled: 1
@@ -174,7 +174,7 @@ Light:
   m_Color: {r: 0.97815573, g: 1, b: 0.28773582, a: 1}
   m_Intensity: 2
   m_Range: 17.627674
-  m_SpotAngle: 136
+  m_SpotAngle: 159.21223
   m_CookieSize: 10
   m_Shadows:
     m_Type: 2
@@ -192,6 +192,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -201,40 +202,41 @@ Light:
 --- !u!114 &114874725726212172
 MonoBehaviour:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1035928919909046}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 58aa7fc987b950842bd18f98af474d5b, type: 3}
+  m_Script: {fileID: 11500000, guid: e32cf2460ee2b364b88ce9b4c0eb7bf6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  buildingName: Lampe
+  buildingName: Lamp
   price: 5
   reputationInc: 0
   colliders: []
-  placed: 0
+  placed: 1
   canPlace: 0
   repr: {fileID: 1036903794752054}
   settingsPrefab: {fileID: 0}
+  bonus: 0
   selected: 0
   lamp: {fileID: 108742403915079888}
   color:
     serializedVersion: 2
     key0: {r: 0, g: 0, b: 0, a: 1}
-    key1: {r: 0.11956547, g: 0.12320203, b: 0.048234757, a: 1}
-    key2: {r: 0.97048295, g: 1, b: 0.3915094, a: 0}
-    key3: {r: 0.9457209, g: 0.9744848, b: 0.38151997, a: 0}
-    key4: {r: 0.19910777, g: 0.20516354, b: 0.08032346, a: 0}
+    key1: {r: 1, g: 1, b: 1, a: 1}
+    key2: {r: 0.97766215, g: 0.97766215, b: 0.97766215, a: 0}
+    key3: {r: 0, g: 0, b: 0, a: 0}
+    key4: {r: 1, g: 1, b: 1, a: 0}
     key5: {r: 0, g: 0, b: 0, a: 0}
     key6: {r: 0, g: 0, b: 0, a: 0}
     key7: {r: 0, g: 0, b: 0, a: 0}
-    ctime0: 32768
-    ctime1: 35934
-    ctime2: 36670
-    ctime3: 61632
-    ctime4: 62295
-    ctime5: 65535
+    ctime0: 29969
+    ctime1: 31000
+    ctime2: 61043
+    ctime3: 61853
+    ctime4: 65535
+    ctime5: 0
     ctime6: 0
     ctime7: 0
     atime0: 0
@@ -246,5 +248,5 @@ MonoBehaviour:
     atime6: 0
     atime7: 0
     m_Mode: 0
-    m_NumColorKeys: 6
+    m_NumColorKeys: 4
     m_NumAlphaKeys: 2

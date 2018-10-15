@@ -129,7 +129,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1042180466082940}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 14.643399, y: 8.0169465e-17, z: -3.6105118}
+  m_LocalPosition: {x: 0.91600955, y: 2.1296383e-16, z: -9.591038}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4527728258235874}
@@ -180,7 +180,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: 8a1676bb0adb46443b73875020130265, type: 3}
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -206,7 +206,7 @@ MeshFilter:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1952761145296426}
-  m_Mesh: {fileID: 4300000, guid: 8a1676bb0adb46443b73875020130265, type: 3}
+  m_Mesh: {fileID: 4300000, guid: 52cfcdae80144f14690c50c7a6215f31, type: 3}
 --- !u!54 &54086382223268126
 Rigidbody:
   m_ObjectHideFlags: 1
@@ -287,7 +287,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1190996118410630}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cb2745fe025371b42bc924cd54c5d2d5, type: 3}
+  m_Script: {fileID: 11500000, guid: b4aea54e5e574f14185215be19b5553f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   overlaping: []
@@ -300,20 +300,21 @@ MonoBehaviour:
   m_GameObject: {fileID: 1042180466082940}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 25aadb99fe2fb6445b87f585b3fb3b17, type: 3}
+  m_Script: {fileID: 11500000, guid: b419344324fed7d4dbcedf77905d0714, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  buildingName: Prototyp Areal
-  price: 60
+  buildingName: Prototyp
+  price: 5
   reputationInc: 0
   colliders:
   - {fileID: 114868197669041398}
   - {fileID: 114013174805409120}
-  placed: 0
+  placed: 1
   canPlace: 0
   repr: {fileID: 1952761145296426}
-  settingsPrefab: {fileID: 114406244295860742, guid: af1ac1e08fd02be43984243479c5de92,
+  settingsPrefab: {fileID: 114895351824373284, guid: 1e99cce35bc40ca468310fd4c73b340f,
     type: 2}
+  bonus: 0
   selected: 0
   robotStat:
     nameOfPart: 
@@ -324,14 +325,14 @@ MonoBehaviour:
     movement: 0
     intiligenz: 0
   cooldown: 0
-  maxCooldown: 200
+  maxCooldown: 60
   canPrototype: 1
   researcherBonus:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 3
-      time: 0.15040588
-      value: 0.56988525
+      time: 0
+      value: 0
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -339,8 +340,8 @@ MonoBehaviour:
       inWeight: 0.33333334
       outWeight: 0.33333334
     - serializedVersion: 3
-      time: 100.383606
-      value: 1.9928503
+      time: 1
+      value: 0
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -358,7 +359,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1961286444012822}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cb2745fe025371b42bc924cd54c5d2d5, type: 3}
+  m_Script: {fileID: 11500000, guid: b4aea54e5e574f14185215be19b5553f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   overlaping: []

@@ -112,7 +112,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1001314881457834}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 10.33497, y: -2.7256678e-17, z: 1.2275317}
+  m_LocalPosition: {x: -29.687906, y: 2.1157607e-16, z: -9.528539}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4152144548252966}
@@ -148,7 +148,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: 0104d975cf963dd44b100527f1b2c56f, type: 3}
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -228,19 +228,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 1001314881457834}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f38845be330c0a34383c6c37d982dc8b, type: 3}
+  m_Script: {fileID: 11500000, guid: 2f1530d2bc6ff4d4ca8f636ac8476f50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   buildingName: Lager
-  price: 45
-  reputationInc: -0.02
+  price: 5
+  reputationInc: 0
   colliders:
   - {fileID: 114959951477059968}
-  placed: 0
+  placed: 1
   canPlace: 0
   repr: {fileID: 1883060548747702}
-  settingsPrefab: {fileID: 114756810749615536, guid: eff8276b2a67b5d4493a87d7ae39fa8f,
-    type: 2}
+  settingsPrefab: {fileID: 0}
+  bonus: 0
   selected: 0
   capacity: 10
 --- !u!114 &114959951477059968
@@ -251,7 +251,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1811964404801580}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cb2745fe025371b42bc924cd54c5d2d5, type: 3}
+  m_Script: {fileID: 11500000, guid: b4aea54e5e574f14185215be19b5553f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   overlaping: []

@@ -38,7 +38,7 @@ GameObject:
   - component: {fileID: 224619801157207614}
   - component: {fileID: 222440824492524274}
   - component: {fileID: 114690720737058532}
-  - component: {fileID: 114406244295860742}
+  - component: {fileID: 114895351824373284}
   m_Layer: 0
   m_Name: PrototypeBuildingA
   m_TagString: Untagged
@@ -125,23 +125,6 @@ MonoBehaviour:
   m_FillAmount: 0.267
   m_FillClockwise: 1
   m_FillOrigin: 0
---- !u!114 &114406244295860742
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1434562294433404}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 92a1450be07fb8b40acce8abe081a715, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  origen: {fileID: 0}
-  elements:
-  - name: robotMakeButton
-    element: {fileID: 1578211544566890}
-  - name: robotMakingTimer
-    element: {fileID: 1224318550729742}
 --- !u!114 &114580382008898942
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -262,6 +245,23 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Prototyp herstellen
+--- !u!114 &114895351824373284
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1434562294433404}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01520116aedd20146906468819262c49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  origen: {fileID: 0}
+  elements:
+  - name: robotMakeButton
+    element: {fileID: 1578211544566890}
+  - name: robotMakingTimer
+    element: {fileID: 1224318550729742}
 --- !u!114 &114951274856121286
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -377,7 +377,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1434562294433404}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -4.393938}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 224659042614994062}
@@ -388,7 +388,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 2.420044, y: 2.959961}
+  m_AnchoredPosition: {x: 17.477379, y: 9.7565033e-17}
   m_SizeDelta: {x: -32.28, y: -22.92}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224659042614994062
