@@ -14,7 +14,6 @@ public class UIBuilding : HoverPanel {
 	void Start () {
         bName.text = show.buildingName;
         orginalPos = transform.localPosition;
-
     }
 	
 	// Update is called once per frame
